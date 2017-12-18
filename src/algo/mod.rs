@@ -1,3 +1,4 @@
+pub mod edm;
 pub mod edm_x;
 pub mod non_nan;
 pub mod best_candidate;

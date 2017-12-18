@@ -8,6 +8,7 @@ extern crate num;
 pub mod errors;
 mod algo;
 
+pub use algo::edm::edm::EDM;
 pub use algo::edm_x::edm_x::EDMX;
 pub use algo::changepoint::ChangePointDetector;
 pub use algo::non_nan::{NonNaN, to_non_nans};
